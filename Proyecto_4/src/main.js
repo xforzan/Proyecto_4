@@ -10,7 +10,7 @@ import { changeId } from '../Utils/changeId.js';
 header();
 experience();
 myProjects();
-// footer();
+footer();
 
 
 const body = document.querySelector('#app');
