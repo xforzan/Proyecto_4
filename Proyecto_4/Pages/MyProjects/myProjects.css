@@ -30,7 +30,7 @@ font-size: 40px;
 }
 
 .projectContainer{
-    width: 400px;
+    max-width: 400px;
     min-width: 200px;
     display: flex;
     flex-direction: column;
