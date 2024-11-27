@@ -58,3 +58,9 @@ header > ul {
     background-color: transparent;
     font-size: 20px;
 }
+
+@media (max-width: 500px){
+    .headerButton{
+        display: none;
+    }
+}
