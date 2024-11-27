@@ -1,16 +1,16 @@
-.aboutMe{
+.myProjects{
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: "Poppins", sans-serif;
 }
 
-.aboutMe > h2{
+.myProjects > h2{
 text-transform: uppercase;
 font-size: 40px;
 
 }
-.aboutMe > span{
+.myProjects > span{
     text-transform: uppercase;
     background: linear-gradient(90deg, #9C83FF 0%, #FF9051 100%);
     -webkit-background-clip: text;

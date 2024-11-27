@@ -24,3 +24,10 @@ li{
 section{
   margin-top: 100px;
 }
+
+p{
+  margin-top: 30px;
+  min-width: 20px;
+  max-width: 800px;
+  text-align: center;
+}
