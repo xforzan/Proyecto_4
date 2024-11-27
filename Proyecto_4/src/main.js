@@ -8,9 +8,9 @@ import { footer } from '../Components/Footer/footer.js';
 import { changeId } from '../Utils/changeId.js';
 
 header();
-experience();
-myProjects();
-footer();
+// experience();
+// myProjects();
+// footer();
 
 
 const body = document.querySelector('#app');
