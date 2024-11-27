@@ -73,4 +73,6 @@ font-size: 40px;
 .projectButton::before{
     content: url("./githubIcon.svg");
     margin-right: 10px;
+    width: 30px;
+    height: 30px;
 }
