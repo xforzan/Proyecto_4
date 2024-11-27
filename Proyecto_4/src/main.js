@@ -8,7 +8,7 @@ import { footer } from '../Components/Footer/footer.js';
 import { changeId } from '../Utils/changeId.js';
 
 header();
-// experience();
+experience();
 // myProjects();
 // footer();
 
