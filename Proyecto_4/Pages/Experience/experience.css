@@ -19,6 +19,10 @@ font-size: 40px;
     letter-spacing: 5px;
 }
 
+.experience > p{
+    text-align:justify;
+}
+
 .skills{
     display: flex;
     flex-direction: row;
@@ -34,4 +38,16 @@ font-size: 40px;
     padding: 10px;
     border-radius: 30px;
     border: 1px solid linear-gradient(90deg, #9C83FF 0%, #FF9051 100%);
+}
+
+
+.ocupation{
+    margin-top: 50px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.position{
+    font-weight: 400;
 }
