@@ -21,6 +21,7 @@ ${myProjects()}
 const themeButton = document.querySelector('.themeButton');
 const aboutMeBtn = document.querySelector('#aboutMe');
 const contact = document.querySelector('#contact')
+const socialMedia = document.querySelector('.socialMedia')
 
 
 themeButton.addEventListener('click', () => {
@@ -30,6 +31,7 @@ themeButton.addEventListener('click', () => {
     Header.classList.add('light')
     aboutMeBtn.id = aboutMeBtn.id.replace('aboutMe','aboutMeLight')
     contact.id = contact.id.replace('contact', 'contactLight')
+    socialMedia.classList.add('darkIcons')
     
 }else {
     changeId('#lightTheme', 'darkTheme')
@@ -38,6 +40,7 @@ themeButton.addEventListener('click', () => {
     aboutMeBtn.classList.remove('aboutMeLight')
     aboutMeBtn.id = aboutMeBtn.id.replace('aboutMeLight', 'aboutMe')
     contact.id = contact.id.replace('contactLight', 'contact')
+    socialMedia.classList.remove('darkIcons')
 }
 
 });

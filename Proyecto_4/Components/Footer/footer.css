@@ -5,7 +5,16 @@
     justify-content: center;
     padding: 25px;
     gap: 20px;
+    color: white;
 }
+
+
+.darkIcons{
+    color: black;
+}
+
+
+
 
 .copyright{
     padding: 10px;
