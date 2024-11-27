@@ -17,7 +17,7 @@ ocupation.classList.add('ocupation');
 const job = document.createElement('h3');
 job.innerHTML = `${data.workExperience[0].company}/<span class="position">${data.workExperience[0].position}</span>`;
 ocupation.append(job);
-const date = document.createElement('span');
+const date = document.createElement('h3');
 date.innerHTML = `${data.workExperience[0].startDate} - ${data.workExperience[0].endDate}`;
 ocupation.append(date);
 
