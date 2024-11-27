@@ -9,7 +9,7 @@ import { changeId } from '../Utils/changeId.js';
 
 header();
 experience();
-// myProjects();
+myProjects();
 // footer();
 
 
