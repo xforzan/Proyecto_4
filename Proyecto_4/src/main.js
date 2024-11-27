@@ -19,22 +19,31 @@ ${experience()}
 ${myProjects()}
 `
 const themeButton = document.querySelector('.themeButton');
+const aboutMeBtn = document.querySelector('#aboutMe');
+const contact = document.querySelector('#contact')
+
 
 themeButton.addEventListener('click', () => {
     if (themeButton.id === 'darkTheme') {
     changeId('#darkTheme', 'lightTheme')
     document.body.classList.add('light')
     Header.classList.add('light')
+    aboutMeBtn.id = aboutMeBtn.id.replace('aboutMe','aboutMeLight')
+    contact.id = contact.id.replace('contact', 'contactLight')
+    
 }else {
     changeId('#lightTheme', 'darkTheme')
     document.body.classList.remove('light')
     Header.classList.remove('light')
+    aboutMeBtn.classList.remove('aboutMeLight')
+    aboutMeBtn.id = aboutMeBtn.id.replace('aboutMeLight', 'aboutMe')
+    contact.id = contact.id.replace('contactLight', 'contact')
 }
 
 });
 
 
-const aboutMeBtn = document.querySelector('#aboutMe');
+
 
 aboutMeBtn.addEventListener('click', () => {
     window.scrollTo({
