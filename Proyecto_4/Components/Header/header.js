@@ -14,7 +14,7 @@ export const header = () => {
         ${button('About Me', 'aboutMe', 'headerButton')}
         </li>
         <li>
-        ${button('Contact', 'contact', 'headerButton')}
+        <a href="mailto:${data.email}">${button('Contact', 'contact', 'headerButton')}</a>
         </li>
         <li>
         ${button('', 'darkTheme', 'themeButton')}
