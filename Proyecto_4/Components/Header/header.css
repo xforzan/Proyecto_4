@@ -9,6 +9,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 1;
+    transition: background-color 0.3s ease;
 }
 
 header > ul {
@@ -30,4 +31,19 @@ header > ul {
 
 #contact{
     border: none;
+}
+
+
+#darkTheme::before{
+    content: "🌙";
+}
+
+#lightTheme::after{
+    content: "☀️";
+}
+
+.themeButton{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
 }
