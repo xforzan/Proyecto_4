@@ -7,18 +7,6 @@ export const data = {
     aboutMe:
       "Passionate Software Engineer with a focus on React Native development, dedicated to crafting elegant and user-friendly mobile applications.",
   
-    education: {
-      degree: "Bachelor of Science in Computer Science",
-      university: "City University of New York",
-      graduationYear: 2012,
-      honors: "Summa Cum Laude",
-      relevantCourses: [
-        "Web Development Fundamentals",
-        "Data Structures and Algorithms",
-        "Database Design",
-        "User Interface Design",
-      ],
-    },
     workExperience: [
       {
         position: "Web Developer",
@@ -41,13 +29,9 @@ export const data = {
       "HTML5",
       "CSS3",
       "JavaScript",
-      "React",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
       "RESTful API",
       "Git",
-      "Frontend and Backend Development",
+
     ],
     projects: [
       {

@@ -26,6 +26,7 @@ font-size: 40px;
     justify-content: center;
     flex-grow: 1;
     flex-shrink: 1;
+    gap: 50px;
 }
 
 .projectContainer{
