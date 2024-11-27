@@ -10,7 +10,8 @@ export const introduction = () => `
 <h2>${data.name}!</h2>
 <h3>I do Code & <span>Chill</span>🍿</h3>
 <p class="text">${data.aboutMe}</p>
-${button('Contact Me', 'contactBtn', 'contactButton')}
+<a href="mailto:${data.email}">${button('Contact Me', 'contactBtn', 'contactButton')}</a>
+
 </section>
 
 `;
