@@ -1,0 +1,26 @@
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.experience > h2{
+text-transform: uppercase;
+font-size: 40px;
+
+}
+.experience > span{
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #9C83FF 0%, #FF9051 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 15px;
+   letter-spacing: 1px;
+}
+
+.experience > p{
+    margin-top: 30px;
+    width: 500px;
+    text-align: center;
+}
