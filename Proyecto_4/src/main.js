@@ -8,7 +8,9 @@ import { footer } from '../Components/Footer/footer.js';
 import { changeId } from '../Utils/changeId.js';
 
 header();
+myProjects();
 footer();
+
 
 const body = document.querySelector('#app');
 
@@ -16,7 +18,6 @@ body.innerHTML = `
 ${introduction()}
 ${aboutMe()}
 ${experience()}
-${myProjects()}
 `
 const themeButton = document.querySelector('.themeButton');
 const aboutMeBtn = document.querySelector('#aboutMe');

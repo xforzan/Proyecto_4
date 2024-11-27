@@ -1,11 +1,11 @@
-const data = {
-    name: "Achraf Nakhil Hamdaoui",
+export const data = {
+    name: "Achraf Nakhil",
     address: "123 Main Street, New York, NY",
     email: "nakhila2024@gmail.com",
     avatar:
-      "https://i.pinimg.com/736x/8f/c2/ad/8fc2adfb17b261162bbd9a4af5239c64.jpg",
+      "https://wallpapers.com/images/hd/soldier-boy-profile-picture-2g9ddl1byiw38lmh.jpg",
     aboutMe:
-      "I'm a passionate photographer, web developer, and journalist with a diverse educational background. I hold a Bachelor's degree in Science, a Web Development Certification, and a Master's in Journalism. My work experience includes capturing exclusive images as a photographer, developing web applications, and reporting on news stories. I'm committed to continuous learning and contributing to both the digital world and quality journalism.",
+      "Passionate Software Engineer with a focus on React Native development, dedicated to crafting elegant and user-friendly mobile applications.",
   
     education: {
       degree: "Bachelor of Science in Computer Science",
@@ -77,4 +77,4 @@ const data = {
     ],
   };
   
-  export default data;
+;

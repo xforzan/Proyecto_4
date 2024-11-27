@@ -1,5 +1,7 @@
 import './footer.css';
 
+import { data } from '../../Data/data.js';
+
 export const footer = () => {
     const footer = document.createElement('footer');
     footer.innerHTML = `
@@ -31,7 +33,7 @@ export const footer = () => {
         </ul>
     </div>
     
-        <p class="copyright" >© 2024 Achraf Nakhil. All rights reserved.</p>
+        <p class="copyright" >© 2024 ${data.name}. All rights reserved.</p>
     `;
     document.body.appendChild(footer);
 }

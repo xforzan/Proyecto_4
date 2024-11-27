@@ -1,11 +1,27 @@
 import './myProjects.css'
+import { data } from '../../Data/data.js';
 
-export const myProjects = () => `
-<section class="myProjects">
+
+export const myProjects = () => {
+const myProjects = document.createElement('section');
+myProjects.classList.add('myProjects');
+myProjects.innerHTML = `
 <h2>Projects</h2>
-<span>Explore Now</span>
-<p class="text">Passionate Software Engineer with a focus on React Native development,
-dedicated to crafting elegant and user-friendly mobile applications.</p>
-</section>
-
-`;
+<span>Explore Now</span>`
+document.body.append(myProjects);
+const projects = document.createElement('div');
+projects.classList.add('projects');
+for (const project of data.projects){
+    const projectContainer = document.createElement('div');
+    projectContainer.classList.add('projectContainer');
+    projectContainer.innerHTML = `
+    <img src=${project.preview} alt="project image">
+    <h3>${project.title}</h3>
+    <p class="text">${project.description}</p>
+    <button class="projectButton"><a href=${project.link} target="_blank">GitHub</a></button>
+    
+    `
+    projects.append(projectContainer);
+    myProjects.append(projects);
+}
+};
