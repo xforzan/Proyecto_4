@@ -36,9 +36,9 @@ export const data = {
           "https://plus.unsplash.com/premium_photo-1684785618727-378a3a5e91c5?auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZWNvbW1lcmNlfGVufDB8fDB8fHww&w=500",
       },
       {
-        title: "Blog Platform",
+        title: "Pictures Platform",
         description:
-          "Created a customizable blog platform with dynamic content creation, user authentication, comment functionality, and social media integration, leading to a 50% growth in user engagement.",
+          "Created a customizable image platform with filter features and dynamic content creation, along with social media integration, resulting in a 50% increase in user engagement.",
         github: "https://github.com/xforzan/Proyecto_3",
         link: "https://proyecto-3-eight.vercel.app/",
         preview:
