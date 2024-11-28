@@ -39,7 +39,7 @@ export const data = {
         title: "Blog Platform",
         description:
           "Created a customizable blog platform with dynamic content creation, user authentication, comment functionality, and social media integration, leading to a 50% growth in user engagement.",
-        github: "https://github.com/xforzan/my-portfolio",
+        github: "https://github.com/xforzan/Proyecto_3",
         link: "https://proyecto-3-eight.vercel.app/",
         preview:
           "https://plus.unsplash.com/premium_photo-1684581214880-2043e5bc8b8b?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2070",
@@ -48,7 +48,7 @@ export const data = {
         title: "Portfolio Website",
         description:
           "Built a professional portfolio website to showcase my web development skills and projects. The site features a clean, responsive design and highlights my work as a developer.",
-        github: "https://github.com/xforzan/Proyecto_3",
+        github: "https://github.com/xforzan/my-portfolio",
         link: "https://my-portfolio-six-iota-91.vercel.app/",
         preview:
           "https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2071",
