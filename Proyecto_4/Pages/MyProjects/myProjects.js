@@ -18,7 +18,7 @@ for (const project of data.projects){
     <img src=${project.preview} alt="project image">
     <h3>${project.title}</h3>
     <p class="text">${project.description}</p>
-    <button class="githubButton"><a href=${project.link} target="_blank">GitHub</a></button>
+    <button class="githubButton"><a href=${project.github} target="_blank">GitHub</a></button>
     <button class="linkButton"><a href=${project.link} target="_blank">Link</a></button>
     
     `
