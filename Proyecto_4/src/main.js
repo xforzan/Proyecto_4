@@ -11,8 +11,7 @@ import { changePages } from '../Pages/ChangePages/changePages.js';
 header();
 footer();
 
-const relativeContent = document.createElement('div');
-relativeContent.classList.add('relativeContent');
+
 
 
 const body = document.querySelector('#app');
