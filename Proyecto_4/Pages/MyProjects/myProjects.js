@@ -1,6 +1,7 @@
 import './myProjects.css'
 import { data } from '../../Data/data.js';
 
+const app = document.querySelector('#app');
 
 export const myProjects = () => {
 const myProjects = document.createElement('section');
@@ -8,7 +9,6 @@ myProjects.classList.add('myProjects');
 myProjects.innerHTML = `
 <h2>Projects</h2>
 <span>Explore Now</span>`
-document.body.append(myProjects);
 const projects = document.createElement('div');
 projects.classList.add('projects');
 for (const project of data.projects){
@@ -25,4 +25,5 @@ for (const project of data.projects){
     projects.append(projectContainer);
     myProjects.append(projects);
 }
+app.appendChild(myProjects);
 };

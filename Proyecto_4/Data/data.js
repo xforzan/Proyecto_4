@@ -1,6 +1,6 @@
 export const data = {
     name: "Achraf Nakhil",
-    address: "123 Main Street, New York, NY",
+    address: "123 Main Street, Girona, ES",
     email: "nakhila2024@gmail.com",
     avatar:
       "https://wallpapers.com/images/hd/soldier-boy-profile-picture-2g9ddl1byiw38lmh.jpg",

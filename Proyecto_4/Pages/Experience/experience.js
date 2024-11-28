@@ -2,6 +2,8 @@ import './experience.css';
 
 import { data } from '../../Data/data.js';
 
+
+const app = document.querySelector('#app');
 export const experience = () => {
     const experience = document.createElement('section');
     experience.classList.add('experience');
@@ -38,5 +40,5 @@ experience.append(description);
         skills.append(skill);
     }
     experience.append(skills);
-    document.body.appendChild(experience);
+    app.appendChild(experience);
     };
