@@ -51,7 +51,7 @@ font-size: 40px;
 }
 
 
-.projectButton{
+.githubButton{
     width: 100px;
     height: 20px;
     border: none;
@@ -67,11 +67,37 @@ font-size: 40px;
     align-items: center;
 }
 
-.projectButton:hover{
+.githubButton:hover{
     scale: 1.1;
 }
 
-.projectButton::before{
+.githubButton::before{
     content: url("../../public/githubIcon.svg");
+    margin-right: 10px;
+}
+
+
+.linkButton{
+    width: 100px;
+    height: 20px;
+    border: none;
+    background-color: #222222;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    font-weight: bold;
+    transition: 300ms;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkButton:hover{
+    scale: 1.1;
+}
+
+.linkButton::before{
+    content: url("../../public/link.svg");
     margin-right: 10px;
 }
