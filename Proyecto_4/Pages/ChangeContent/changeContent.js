@@ -6,7 +6,7 @@ export const changeContent = () => `
 <div class="buttons">
 			<div id="btn"></div>
 			<button type="button" class="toggle-btn" onclick="leftClick()">Experience</button>
-			<button type="button" class="toggle-btn" onclick="rightClick()"></button>
+			<button type="button" class="toggle-btn" onclick="rightClick()">Projects</button>
 		</div>
 </section>
 `;
@@ -18,5 +18,5 @@ window.leftClick = () => {
 
 window.rightClick = () => {
     const btn = document.getElementById('btn');
-    btn.style.left = '110px';
+    btn.style.left = '150px';
 };

@@ -1,13 +1,15 @@
-.button {
-	width: 220px;
+.buttons {
+	width: 300px;
 	margin: 35px auto;
 	position: relative;
 	border-radius: 30px;
-	background: #fff
+	background: #fff;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
 }
 
 .toggle-btn {
-	padding: 10px 40px;
+	padding: 10px 45px;
 	cursor: pointer;
 	background: transparent;
 	border: 0;
@@ -20,9 +22,9 @@
 	left: 0;
 	top: 0;
 	position: absolute;
-	width: 110px;
+	width: 150px;
 	height: 100%;
-	background: #e67e22;
+	background: var(--linearGradient);
 	border-radius: 30px;
 	transition: .5s;
 }
