@@ -8,8 +8,6 @@ import { footer } from '../Components/Footer/footer.js';
 import { changeId } from '../Utils/changeId.js';
 
 header();
-experience();
-myProjects();
 footer();
 
 
@@ -19,6 +17,11 @@ body.innerHTML = `
 ${introduction()}
 ${aboutMe()}
 `
+experience();
+myProjects();
+
+
+
 const themeButton = document.querySelector('.themeButton');
 const aboutMeBtn = document.querySelector('#aboutMe');
 const contact = document.querySelector('#contact')
@@ -55,3 +58,4 @@ aboutMeBtn.addEventListener('click', () => {
         behavior: 'smooth'
     })
 });
+
