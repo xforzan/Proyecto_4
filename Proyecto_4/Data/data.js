@@ -48,7 +48,7 @@ export const data = {
         title: "Portfolio Website",
         description:
           "Built a professional portfolio website to showcase my web development skills and projects. The site features a clean, responsive design and highlights my work as a developer.",
-        github: "https://github.com/xforzan/Proyecto_2",
+        github: "https://github.com/xforzan/Proyecto_3",
         link: "https://my-portfolio-six-iota-91.vercel.app/",
         preview:
           "https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2071",

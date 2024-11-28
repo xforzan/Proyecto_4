@@ -21,6 +21,7 @@ header > ul {
 .headerButton{
     border-radius: 10px;
     padding: 10px;
+    cursor: pointer;
 }
 
 #aboutMe{
@@ -57,6 +58,7 @@ header > ul {
     border: none;
     background-color: transparent;
     font-size: 20px;
+    cursor: pointer;
 }
 
 @media (max-width: 500px){
