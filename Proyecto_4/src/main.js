@@ -6,6 +6,7 @@ import { experience } from '../Pages/Experience/experience.js';
 import { myProjects } from '../Pages/MyProjects/myProjects.js';
 import { footer } from '../Components/Footer/footer.js';
 import { changeId } from '../Utils/changeId.js';
+import { changeContent } from '../Pages/ChangeContent/changeContent.js';
 
 header();
 footer();
@@ -16,6 +17,7 @@ const body = document.querySelector('#app');
 body.innerHTML = `
 ${introduction()}
 ${aboutMe()}
+${changeContent()}
 `
 experience();
 myProjects();
