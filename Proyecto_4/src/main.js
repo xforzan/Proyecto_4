@@ -6,10 +6,13 @@ import { experience } from '../Pages/Experience/experience.js';
 import { myProjects } from '../Pages/MyProjects/myProjects.js';
 import { footer } from '../Components/Footer/footer.js';
 import { changeId } from '../Utils/changeId.js';
-import { changeContent } from '../Pages/ChangeContent/changeContent.js';
+import { changePages } from '../Pages/ChangePages/changePages.js';
 
 header();
 footer();
+
+const relativeContent = document.createElement('div');
+relativeContent.classList.add('relativeContent');
 
 
 const body = document.querySelector('#app');
@@ -17,10 +20,12 @@ const body = document.querySelector('#app');
 body.innerHTML = `
 ${introduction()}
 ${aboutMe()}
-${changeContent()}
+${changePages()}
 `
 experience();
 myProjects();
+
+
 
 
 
@@ -67,10 +72,30 @@ aboutMeBtn.addEventListener('click', () => {
 
 
 
+const projectsHidden = document.querySelector('.projectsHidden');
+const Experience = document.querySelector('.experience');
 
+window.leftClick = () => {
+    const btn = document.getElementById('btn');
+    btn.style.left = '0';
+    if (Experience.classList.contains('experienceHidden')) {
+        Experience.classList.remove('experienceHidden');
+        projectsHidden.classList.remove('myProjects');
+        Experience.classList.add('experience');
+        projectsHidden.classList.add('projectsHidden');
+    }
+};
 
-
-
+window.rightClick = () => {
+    const btn = document.getElementById('btn');
+    btn.style.left = '150px';
+    if (projectsHidden.classList.contains('projectsHidden')) {
+        projectsHidden.classList.remove('projectsHidden');
+        Experience.classList.remove('experience');
+        Experience.classList.add('experienceHidden');
+        projectsHidden.classList.add('myProjects');
+    }
+};
 
 
 

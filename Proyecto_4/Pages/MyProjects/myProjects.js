@@ -6,7 +6,7 @@ const app = document.querySelector('#app');
 
 export const myProjects = () => {
   const myProjects = document.createElement('section');
-  myProjects.classList.add('myProjects');
+  myProjects.classList.add('projectsHidden');
   myProjects.innerHTML = `
     <h2>Projects</h2>
     <span>Explore Now</span>`;
@@ -25,13 +25,11 @@ export const myProjects = () => {
       <button class="linkButton"><a href="${project.link}" target="_blank">Link</a></button>
     `;
     
-    // Agregar el proyecto al contenedor de proyectos
+
     projects.append(projectContainer);
   }
   
-  // Después de completar el bucle, agrega todos los proyectos al contenedor de myProjects
   myProjects.append(projects);
-  
-  // Finalmente, agrega el contenido completo al contenedor principal en el DOM
+
   app.appendChild(myProjects);
 };

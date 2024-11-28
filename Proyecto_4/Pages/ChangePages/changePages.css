@@ -3,9 +3,10 @@
 	margin: 35px auto;
 	position: relative;
 	border-radius: 30px;
-	background: #fff;
+	background: white;
 	font-family: "Poppins", sans-serif;
 	font-weight: bold;
+	border: 1px solid black;
 }
 
 .toggle-btn {
