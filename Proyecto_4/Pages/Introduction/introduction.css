@@ -20,7 +20,7 @@
 }
 
 .introduction h3 span{
-    background: linear-gradient(90deg, #9C83FF 0%, #FF9051 100%);
+    background: var(--linearGradient);
     -webkit-background-clip: text;
     color: transparent;
 }
@@ -28,8 +28,8 @@
 
 .introduction button{
     border: 1px solid grey;
-    background-color: black;
-    color: white;
+    background-color: var(--darkBackground);
+    color: var(--lightTextColor);
     font-weight: bold;
     padding: 15px;
     padding-inline: 50px;

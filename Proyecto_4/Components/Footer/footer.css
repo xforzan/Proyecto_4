@@ -5,19 +5,19 @@
     justify-content: center;
     padding: 25px;
     gap: 20px;
-    color: white;
+    color: var(--lightTextColor);
 }
 
 
 .darkIcons{
-    color: black;
+    color: var(--darkTextColor);
 }
 
 
 
 
 .copyright{
+    width: 100%;
     padding: 10px;
-    width: 100% !important;
     text-align: center;
 }

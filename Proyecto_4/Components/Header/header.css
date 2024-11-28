@@ -1,5 +1,5 @@
 header{
-    background-color: #1e1e1e;
+    background-color: var(--darkThemeBackground);
     padding: 30px;
     display: flex;
     width: 100%;
@@ -27,13 +27,13 @@ header > ul {
 #aboutMe{
     border: 1px solid white;
     background-color: transparent;
-    color: white;
+    color: var(--lightTextColor);
 }
 
 #aboutMeLight{
     border: 1px solid black;
     background-color: transparent;
-    color: black;
+    color: var(--darkTextColor);
 }
 
 #contact{
@@ -42,8 +42,8 @@ header > ul {
 
 #contactLight{
     border: none;
-    background-color: black;
-    color: white;
+    background-color: var(--darkBackground);
+    color: var(--lightTextColor);
 }
 
 #darkTheme::before{
