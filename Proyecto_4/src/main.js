@@ -88,7 +88,7 @@ window.leftClick = () => {
 
 window.rightClick = () => {
     const btn = document.getElementById('btn');
-    btn.style.left = '140px';
+    btn.style.left = '120px';
     if (projectsHidden.classList.contains('projectsHidden')) {
         projectsHidden.classList.remove('projectsHidden');
         Experience.classList.remove('experience');
