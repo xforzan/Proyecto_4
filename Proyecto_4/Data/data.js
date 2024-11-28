@@ -4,8 +4,10 @@ export const data = {
     email: "nakhila2024@gmail.com",
     avatar:
       "https://wallpapers.com/images/hd/soldier-boy-profile-picture-2g9ddl1byiw38lmh.jpg",
+    introduction:
+    "A passionate Software Developer with a focus on React Native development, dedicated to crafting elegant and user-friendly mobile applications.",
     aboutMe:
-      "Passionate Software Engineer with a focus on React Native development, dedicated to crafting elegant and user-friendly mobile applications.",
+      "I am a dedicated Software Developer with a deep passion for building impactful mobile applications. Specializing in React Native, I focus on crafting seamless, intuitive, and high-performing apps that offer outstanding user experiences. I thrive on solving complex challenges with elegant code and creating solutions that empower users. With a continuous drive to learn and innovate, I am committed to staying on the cutting edge of mobile development, always aiming to create products that are both functional and aesthetically pleasing.",
   
     workExperience: [
       {
