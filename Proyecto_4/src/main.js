@@ -8,13 +8,12 @@ import { footer } from '../Components/Footer/footer.js';
 import { changeId } from '../Utils/changeId.js';
 import { changePages } from '../Pages/ChangePages/changePages.js';
 
+
+const body = document.querySelector('#app');
+
 header();
 footer();
 
-
-
-
-const body = document.querySelector('#app');
 
 body.innerHTML = `
 ${introduction()}
